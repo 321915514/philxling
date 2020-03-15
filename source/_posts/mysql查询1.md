@@ -1,3 +1,8 @@
+---
+title: mysql查询1
+date: 2020-03-04 12:32:8
+categories: mysql
+---
 ## mysql查询基本知识,通过记录log的方式记录知识点
 
 作者: philxling

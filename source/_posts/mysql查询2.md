@@ -1,3 +1,9 @@
+---
+title: mysql查询2
+date: 2020-03-08 12:00:25
+categories: mysql
+top: 1
+---
 ## mysql查询2
 
 作者: philxling

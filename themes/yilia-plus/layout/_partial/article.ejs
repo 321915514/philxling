@@ -108,6 +108,9 @@
 
 <% if (!index && post.comments){ %>
 
+ <% if (theme.valine && theme.valine.appid && theme.valine.appkey){ %>
+      <%- partial('post/valine') %>
+    <% } %>
 <% if (theme.changyan_appid && theme.changyan_conf){ %>
 <%- partial('post/changyan', {
       key: post.slug,
