@@ -14,6 +14,8 @@ title: http协议和Chrome抓包工具
 
 HTTP协议：全称是`HyperText Transfer Protocol`，中文意思是超文本传输协议，是一种发布和接收HTML页面的方法。服务器端口号是`80`端口。 HTTPS协议：是HTTP协议的加密版本，在HTTP下加入了SSL层。服务器端口号是`443`端口。
 
+<!--more-->
+
 ## 在浏览器中发送一个http请求的过程：
 
 1. 当用户在浏览器的地址栏中输入一个URL并按回车键之后，浏览器会向HTTP服务器发送HTTP请求。HTTP请求主要分为“Get”和“Post”两种方法。
