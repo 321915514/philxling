@@ -1,3 +1,13 @@
+---
+title: urllib库
+tags: python爬虫
+categories: python
+date: 2020-3-20 17:32:34
+top: 4
+---
+
+
+
 # 3-urllib库
 
 `urllib`库是`Python`中一个最基本的网络请求库。可以模拟浏览器的行为，向指定的服务器发送一个请求，并可以保存服务器返回的数据。
