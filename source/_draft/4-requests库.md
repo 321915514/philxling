@@ -1,6 +1,18 @@
+---
+date: 2020-3-21 14:45:23
+categories: python爬虫
+tags: python
+title: requests库
+top: 5
+---
+
+
+
 # 4-requests库
 
 虽然Python的标准库中 urllib模块已经包含了平常我们使用的大多数功能，但是它的 API 使用起来让人感觉不太好，而 Requests宣传是 “HTTP for Humans”，说明使用更简洁方便。
+
+<!--more-->
 
 ## 安装和文档地址：
 
