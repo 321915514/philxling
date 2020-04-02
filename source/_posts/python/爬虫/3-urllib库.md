@@ -1,7 +1,7 @@
 ---
 title: urllib库
-tags: python爬虫
-categories: python
+tags: [python爬虫,python]
+categories: python爬虫
 date: 2020-3-20 17:32:34
 top: 4
 ---

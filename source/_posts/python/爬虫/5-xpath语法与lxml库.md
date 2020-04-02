@@ -1,7 +1,7 @@
 ---
 date: 2020-3-24 12:43:56
 categories: python爬虫
-tags: python
+tags: [python爬虫,python]
 title: xpath语法与lxml库
 ---
 

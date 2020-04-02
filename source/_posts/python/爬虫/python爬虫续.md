@@ -1,7 +1,7 @@
 ---
-title: python爬虫续
+title: python爬虫基础续
 date: 2020-03-15 18:50:29
-tags: python爬虫
+tags: [python爬虫,python]
 categories: python爬虫
 top: 3
 ---

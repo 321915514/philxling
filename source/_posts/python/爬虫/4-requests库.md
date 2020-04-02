@@ -1,7 +1,7 @@
 ---
 date: 2020-3-21 14:45:23
 categories: python爬虫
-tags: python
+tags: [python爬虫,python]
 title: requests库
 top: 5
 ---

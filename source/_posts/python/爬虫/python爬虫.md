@@ -1,10 +1,10 @@
 ---
-title: python爬虫
+title: python爬虫基础
 date: 2020-03-15 13:36:19
 categories: python爬虫
-tags: 爬虫
+tags: [python爬虫,python]
 ---
-python爬虫基础
+##python爬虫基础
 
 urllib库,url库含有四个模块
 

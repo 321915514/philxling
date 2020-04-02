@@ -1,7 +1,7 @@
 ---
 date: 2020-3-19 13:43
-tags: python爬虫
-categories: python
+tags: [python爬虫,python]
+categories: python爬虫
 top: 4
 title: http协议和Chrome抓包工具
 ---

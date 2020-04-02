@@ -1,8 +1,8 @@
 ---
-title: c语言
+title: c语言指针
 date: 2020-03-15 18:23:51
-tags: c语言
-categories: c语言
+tags: c
+categories: c
 top: 2
 ---
 
