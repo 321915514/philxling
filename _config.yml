@@ -115,7 +115,7 @@ jsonContent:
 ## https://github.com/EYHN/hexo-helper-live2d
 live2d:
   enable: true
-  # enable: false
+  #enable: false
   scriptFrom: local # 默认
   pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)
   pluginJsPath: lib/ # 脚本文件相对与插件根目录路径
@@ -132,8 +132,8 @@ live2d:
     # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url
   display:
     position: right
-    width: 100
-    height: 200
+    width: 50
+    height: 100
   mobile:
     show: false # 手机中是否展示
 
@@ -221,26 +221,30 @@ search:
 # hexo-neat
 # 博文压缩
 # 博文压缩
-neat_enable: true
+#neat_enable: false
 # 压缩html
-neat_html:
-  enable: false
-  exclude:
+#neat_html:
+  #enable: false
+  #exclude:
 # 压缩css  
-neat_css:
-  enable: false
-  exclude:
-    - '**/*.min.css'
+#neat_css:
+  #enable: false
+  #exclude:
+    #- '**/*.min.css'
 # 压缩js
-neat_js:
-  enable: false
-  mangle: false
-  output:
-  compress:
-  exclude:
-    - '**/*.min.js'
-    - '**/jquery.fancybox.pack.js'
-    - '**/index.js'  
+#neat_js:
+  #enable: false
+  #mangle: false
+  #output:
+  #compress:
+  #exclude:
+    #- '**/*.min.js'
+    #- '**/jquery.fancybox.pack.js'
+    #- '**/index.js'  
+    #- '**/love.js'
+    #- '**/comments.gitalk.js'
+    #- '**/jquery_pjax_min_js.js'
+    #- 'live2dw/lib/*.js'
 
 # 压缩博文配置结束
 
