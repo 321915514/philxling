@@ -817,7 +817,7 @@ vendors:
 # Live2D
 ## https://github.com/EYHN/hexo-helper-live2d
 live2d:
-  enable: true
+  enable: false
   #enable: false
   scriptFrom: local # 默认
   pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)
@@ -835,10 +835,13 @@ live2d:
     # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url
   display:
     position: right
+    scale: 0.6
     width: 50
     height: 100
   mobile:
     show: false # 手机中是否展示
+  react:
+    opacity: 0.8 # 模型透明度(default: 0.7)
 
 
 

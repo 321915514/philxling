@@ -17,7 +17,8 @@
   {% set js_vendors.fancybox  = 'fancybox/source/jquery.fancybox.pack.js?v=2.1.5' %}
 {% endif %}
 {% if theme.canvas_nest %}
-  {% set js_vendors.canvas_nest  = 'canvas-nest/canvas-nest.min.js' %}
+	<script type="text/javascript"
+color="0,0,255" opacity='0.7' zIndex="-2" count="60" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
 {% endif %}
 
 {% if theme.three_waves %}

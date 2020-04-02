@@ -200,30 +200,30 @@ search:
 # hexo-neat
 # 博文压缩
 # 博文压缩
-#neat_enable: false
+neat_enable: false
 # 压缩html
-#neat_html:
-  #enable: false
-  #exclude:
+neat_html:
+  enable: false
+  exclude:
 # 压缩css  
-#neat_css:
-  #enable: false
-  #exclude:
-    #- '**/*.min.css'
+neat_css:
+  enable: false
+  exclude:
+    - '**/*.min.css'
 # 压缩js
-#neat_js:
-  #enable: false
+neat_js:
+  enable: false
   #mangle: false
-  #output:
-  #compress:
-  #exclude:
-    #- '**/*.min.js'
-    #- '**/jquery.fancybox.pack.js'
-    #- '**/index.js'  
-    #- '**/love.js'
-    #- '**/comments.gitalk.js'
-    #- '**/jquery_pjax_min_js.js'
-    #- 'live2dw/lib/*.js'
+  output:
+  compress:
+  exclude:
+    - '**/*.min.js'
+    - '**/jquery.fancybox.pack.js'
+    - '**/index.js'  
+    - '**/love.js'
+    - '**/comments.gitalk.js'
+    - '**/jquery_pjax_min_js.js'
+    - 'live2dw/lib/*.js.map'
 
 # 压缩博文配置结束
 
