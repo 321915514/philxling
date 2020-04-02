@@ -298,9 +298,8 @@ highlight_theme: normal
 # ---------------------------------------------------------------
 font:
   enable: false
-
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
-  host:
+  host: //fonts.lug.ustc.edu.cn
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -435,7 +434,7 @@ gitment:
 # This plugin is more useful in China, make sure you known how to use it.
 # And you can find the use guide at official webiste: http://www.jiathis.com/.
 # Warning: JiaThis does not support https.
-#jiathis:
+jiathis: true
   ##uid: Get this uid from http://www.jiathis.com/
 #add_this_id:
 
@@ -835,10 +834,10 @@ live2d:
     # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url
   display:
     position: right
-    width: 150
-    height: 300
+    width: 100
+    height: 200
   mobile:
-    show: true # 手机中是否展示
+    show: false # 手机中是否展示
 
 
 
