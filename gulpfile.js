@@ -30,7 +30,7 @@ gulp.task('minify-html', async(done)=> {
 
 // 压缩js文件
 gulp.task('minify-js', async(done)=>{
-    await gulp.src(['./public/**/*.js', '!./public/**/*.min.js'])
+    await gulp.src(['./public/**/*.js','!./public/*/.min.js', '!./node_modules/gulp-htmlmin/node_modules/html-minifier/**/*.js','!./public/**/*.min.js'])
         .pipe(babel({
             //将ES6代码转译为可执行的JS代码
             presets: ['es2015'] // es5检查机制
