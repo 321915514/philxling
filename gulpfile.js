@@ -7,16 +7,16 @@ var imagemin = require('gulp-imagemin');
 var babel = require('gulp-babel');
 
 // 压缩css文件
-gulp.task('minify-css', function (done) {
-    return gulp.src('./public/**/*.css')
+gulp.task('minify-css', async(done)=> {
+    await gulp.src('./public/**/*.css')
         .pipe(minifycss())
         .pipe(gulp.dest('./public'));
     done();
 });
 
 // 压缩html文件
-gulp.task('minify-html', function (done) {
-    return gulp.src('./public/**/*.html')
+gulp.task('minify-html', async(done)=> {
+    await gulp.src('./public/**/*.html')
         .pipe(htmlclean())
         .pipe(htmlmin({
             removeComments: true,
@@ -29,8 +29,8 @@ gulp.task('minify-html', function (done) {
 });
 
 // 压缩js文件
-gulp.task('minify-js', function (done) {
-    return gulp.src(['./public/**/*.js', '!./public/**/*.min.js'])
+gulp.task('minify-js', async(done)=>{
+    await gulp.src(['./public/**/*.js', '!./public/**/*.min.js'])
         .pipe(babel({
             //将ES6代码转译为可执行的JS代码
             presets: ['es2015'] // es5检查机制
@@ -53,11 +53,11 @@ gulp.task('minify-js', function (done) {
 // });
 
 // 压缩 public/images 目录内图片(Version>3)
-gulp.task('minify-images', function (done) {
-    gulp.src('./public/images/**/*.*')
+gulp.task('minify-images', async(done)=> {
+    await gulp.src('./public/images/**/*.*')
         .pipe(imagemin([
             imagemin.gifsicle({interlaced: true}),
-            imagemin.jpegtran({progressive: true}),
+            //imagemin.jpegtran({progressive: true}),
             imagemin.optipng({optimizationLevel: 5}),
             imagemin.svgo({
                 plugins: [

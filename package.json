@@ -43,6 +43,10 @@
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-server": "^1.0.0",
     "hexo-wordcount": "^6.0.1",
+    "imagemin-gifsicle": "^7.0.0",
     "live2d-widget-model-wanko": "^1.0.5"
+  },
+  "devDependencies": {
+    "gulp-util": "^3.0.8"
   }
 }
