@@ -9,7 +9,7 @@ copyright: philxling
 
 
 
-# 2-BeautifulSoup4库
+# BeautifulSoup4库
 
 和 lxml 一样，Beautiful Soup 也是一个HTML/XML的解析器，主要的功能也是如何解析和提取 HTML/XML 数据。
 lxml 只会局部遍历，而Beautiful Soup 是基于HTML DOM（Document Object Model）的，会载入整个文档，解析整个DOM树，因此时间和内存开销都会大很多，所以性能要低于lxml。
