@@ -18,6 +18,8 @@ categories: problem
 npm install gulp -g
 ```
 
+<!--more-->
+
 #### 2 安装gulp插件
 
 ```

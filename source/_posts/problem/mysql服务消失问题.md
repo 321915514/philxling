@@ -18,6 +18,8 @@ https://dev.mysql.com/downloads/file/?id=492456
 
 然后本地卸载mysql后会保留data目录,
 
+<!--more-->
+
 #### 2 卸载本地mysql,保留data目录
 
 #### 3 将data目录复制到新的data目录中
