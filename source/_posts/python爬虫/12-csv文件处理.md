@@ -23,6 +23,8 @@ with open('stock.csv','r') as fp:
         print(x)
 ```
 
+<!--more-->
+
 这样操作，以后获取数据的时候，就要通过下表来获取数据。如果想要在获取数据的时候通过标题来获取。那么可以使用`DictReader`。示例代码如下：
 
 ```python
