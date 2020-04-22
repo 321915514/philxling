@@ -1,7 +1,7 @@
 {% if theme.valine.enable and theme.valine.appid and theme.valine.appkey %}
-  <script src="../js/src/av-min.js"></script>
-  <script src="../js/src/Valine.min.js"></script>
-  
+	<script src="https://www.fujiatian.com/js/src/av-min.js"></script>
+	<!--Valine 的核心代码库-->
+	<script src="https://www.fujiatian.com/js/src/Valine.min.js"></script>
   <script type="text/javascript">
     var GUEST = ['nick','mail','link'];
     var guest = '{{ theme.valine.guest_info }}';
