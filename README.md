@@ -1,4 +1,3 @@
-# philxling
 这是博客备份文件,hexo+github,
 ```
 http://www.philxling.cn
