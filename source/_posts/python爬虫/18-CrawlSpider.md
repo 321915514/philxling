@@ -4,13 +4,13 @@ date: 2022-3-20 1:22:23
 tags: [python,python爬虫]
 categories: python爬虫
 copyright: philxling
-top: 16
+top: 68
 ```
 
 # 3-CrawlSpider
 
 在上一个糗事百科的爬虫案例中。我们是自己在解析完整个页面后获取下一页的url，然后重新发送一个请求。有时候我们想要这样做，只要满足某个条件的url，都给我进行爬取。那么这时候我们就可以通过`CrawlSpider`来帮我们完成了。`CrawlSpider`继承自`Spider`，只不过是在之前的基础之上增加了新的功能，可以定义爬取的url的规则，以后scrapy碰到满足条件的url都进行爬取，而不用手动的`yield Request`。
-
+<!--more-->
 ## CrawlSpider爬虫：
 
 ### 创建CrawlSpider爬虫：

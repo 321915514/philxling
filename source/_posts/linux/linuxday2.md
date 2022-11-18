@@ -11,7 +11,7 @@ categories: linux
 ```man man```用于查看linux文档，第1章shell命令，第二章库函数，等
 
 ```alias ls```查看ls命令是否被封装
-
+<!--more-->
 ```echo```输出如：```echo $PATH```输出path变量的值
 
 vim编辑器：命令模式，编辑模式，末行模式；

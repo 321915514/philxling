@@ -1,14 +1,14 @@
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
-
+pjax: true
 # Site
 title: philxling
 subtitle: 'Sometimes,Nowhere means "Now""Here"'
 description: '代码改变世界'
 keywords: spider, python, java ,c++
 author: philxling
-language: en
+language: zh-Hans
 #timezone: Asia/Wuhan
 encoding: "utf-8"
 github_username: 321915514
@@ -129,6 +129,13 @@ baidusitemap:
 
 
 
+
+
+
+
+
+
+
 # rss订阅
 plugins:
   hexo-generator-feed
@@ -190,6 +197,9 @@ deploy:
   type: git
   repo: git@github.com:321915514/321915514.github.com.git
   branch: master
+  #type: git
+  #repo: git@gitee.com:philxling/philxling.git
+  #branch: master
 
 search:
   path: search.xml

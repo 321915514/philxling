@@ -9,7 +9,7 @@
 # ---------------------------------------------------------------
 # Theme Core Configuration Settings
 # ---------------------------------------------------------------
-
+pjax: true
 # Set to true, if you want to fully override the default configuration.
 # Useful if you don't want to inherit the theme _config.yml configurations.
 override: false
@@ -113,9 +113,9 @@ menu_icons:
 
 # Schemes
 #scheme: Muse
-scheme: Mist
+#scheme: Mist
 #scheme: Pisces
-#scheme: Gemini
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -588,17 +588,23 @@ baidu_push: true
 #
 # API Documentation:
 # https://developers.google.com/google-apps/calendar/v3/reference/events/list
+
+# https://calendar.google.com/calendar/u/0?cid=YzRjNmFhOTU1NTczOGYzOWY3Mjc5ZThjOWU1MTNjMDMyODUzOTVmYmNiMmE1NzRhYTlkOWZjZjUxZGY5NGNmMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
 calendar:
   enable: true
-  calendar_id: <required>
-  api_key: <required>
+  calendar_id: 321915514wx@gmail.com
+  api_key: AIzaSyCxqmW6NJbO6_laXTUBHPjPvx4JGSZVwDQ
   orderBy: startTime
   offsetMax: 24
   offsetMin: 4
-  timeZone:
+  timeZone: 0
   showDeleted: false
   singleEvents: true
   maxResults: 250
+
+
+
+
 
 # Algolia Search
 algolia_search:
@@ -704,7 +710,18 @@ pace: true
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: true
+canvas_nest:
+  enable: true
+  onmobile: true # display on mobile or not
+  color: '0,0,255' # RGB values, use ',' to separate
+  opacity: 0.5 # the opacity of line: 0~1
+  zIndex: -1 # z-index property of the background
+  #count: 99 # the number of lines
+
+#- color ：线条颜色, 默认: ‘0,0,0’；三个数字分别为(R,G,B) 
+#- opacity: 线条透明度（0~1）, 默认: 0.5 
+#- count: 线条的总数量, 默认: 150 
+#- zIndex: 背景的z-index属性，css属性用于控制所在层的位置, 默认: -1
 
 # three_waves
 three_waves: false
@@ -722,7 +739,7 @@ canvas_sphere: false
 # alpha: The transparency of the ribbon.
 # zIndex: The display level of the ribbon.
 canvas_ribbon:
-  enable: false
+  enable: true
   size: 300
   alpha: 0.6
   zIndex: -1
@@ -817,7 +834,7 @@ vendors:
 # Live2D
 ## https://github.com/EYHN/hexo-helper-live2d
 live2d:
-  enable: false
+  enable: true
   #enable: false
   scriptFrom: local # 默认
   pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)
@@ -835,16 +852,21 @@ live2d:
     # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url
   display:
     position: right
+    vOffset: -40
     scale: 0.6
     width: 50
     height: 100
   mobile:
-    show: false # 手机中是否展示
+    show: true # 手机中是否展示
   react:
     opacity: 0.8 # 模型透明度(default: 0.7)
 
 
+# 网易
 
+music:
+  enable: true
+  autoplay: true
 
 
 
